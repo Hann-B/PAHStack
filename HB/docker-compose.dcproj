@@ -1,22 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" Sdk="Microsoft.Docker.Sdk">
   <PropertyGroup Label="Globals">
-    <ProjectGuid>5cc2d83d-7f31-4606-a364-fbd7eacccd04</ProjectGuid>
-    <DockerLaunchBrowser>True</DockerLaunchBrowser>
-    <DockerServiceUrl>http://localhost:{ServicePort}</DockerServiceUrl>
-    <DockerServiceName>hb</DockerServiceName>
+    <ProjectGuid>e8b70119-8f8d-4452-9e47-cde87fac9b00</ProjectGuid>
   </PropertyGroup>
-  <ItemGroup>
-    <None Include="docker-compose.ci.build.yml" />
-    <None Include="docker-compose.override.yml">
-      <DependentUpon>docker-compose.yml</DependentUpon>
-    </None>
-    <None Include="docker-compose.vs.debug.yml">
-      <DependentUpon>docker-compose.yml</DependentUpon>
-    </None>
-    <None Include="docker-compose.vs.release.yml">
-      <DependentUpon>docker-compose.yml</DependentUpon>
-    </None>
-    <None Include="docker-compose.yml" />
-  </ItemGroup>
 </Project>
