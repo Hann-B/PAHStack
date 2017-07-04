@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  hb:
+    image: hb
+    build:
+      context: ./HB
+      dockerfile: Dockerfile
